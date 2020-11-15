@@ -22,5 +22,11 @@ namespace UnitTest53
 			q = f(0);
 			Assert::AreEqual(q, 1);
 		}
+		TEST_METHOD(TestMethod3)
+		{
+			int N;
+			N = fact(4);
+			Assert::AreEqual(N, 24);
+		}
 	};
 }
