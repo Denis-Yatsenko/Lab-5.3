@@ -9,7 +9,7 @@ namespace UnitTest53
 	TEST_CLASS(UnitTest53)
 	{
 	public:
-		
+
 		TEST_METHOD(TestMethod1)
 		{
 			int t;
@@ -22,11 +22,6 @@ namespace UnitTest53
 			q = f(0);
 			Assert::AreEqual(q, 1);
 		}
-		TEST_METHOD(TestMethod3)
-		{
-			int N;
-			N = fact(4);
-			Assert::AreEqual(N, 24);
-		}
+
 	};
 }

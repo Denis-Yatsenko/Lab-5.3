@@ -3,7 +3,7 @@
 #include <iomanip>
 using namespace std;
 double f(const double x);
-double fact(int N);
+int fact(int N);
 int main()
 {
 	double yp, yk, z;
@@ -39,20 +39,18 @@ double f(const double x)
 		do
 		{
 			i++;
-			double R = x / (fact(3*i));
+			double R = (x * x) / (((3 * i) - 2) * ((3 * i) - 1) * (3 * i));
 			a *= R;
 			S += a;
 		} while (i < 6);
 		return S;
 	}
-	}
-double fact(int N)
+}
+int fact(int N)
 {
 	if (N == 0)
 		return 1;
 	else
-	{
 		return N * fact(N - 1);
-	}
 }
 	

@@ -1,6 +1,4 @@
 ﻿  UnitTest5.3.cpp
 C:\Users\denfa\Desktop\Student\Lan_5.3\UnitTest5.3\UnitTest5.3.cpp(16,9): warning C4244: =: преобразование "double" в "int", возможна потеря данных
 C:\Users\denfa\Desktop\Student\Lan_5.3\UnitTest5.3\UnitTest5.3.cpp(22,9): warning C4244: =: преобразование "double" в "int", возможна потеря данных
-C:\Users\denfa\Desktop\Student\Lan_5.3\UnitTest5.3\UnitTest5.3.cpp(28,12): warning C4244: =: преобразование "double" в "int", возможна потеря данных
-     Создается библиотека C:\Users\denfa\Desktop\Student\Lan_5.3\Debug\UnitTest5.3.lib и объект C:\Users\denfa\Desktop\Student\Lan_5.3\Debug\UnitTest5.3.exp
   UnitTest5.3.vcxproj -> C:\Users\denfa\Desktop\Student\Lan_5.3\Debug\UnitTest5.3.dll
